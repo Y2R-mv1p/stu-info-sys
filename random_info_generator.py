@@ -2,7 +2,7 @@ import random
 import string
 
 def generate_realistic_name():
-    surnames = ["吴", "王", "李", "张", "刘", "陈", "洪", "汪", "胡", "苏", "阮", "侯", "吕"]
+    surnames = ["吴", "王", "李", "张", "刘", "陈", "洪", "汪", "胡", "苏", "阮", "许", "吕"]
     chinese_characters = "巧月巧云今夜巧非宁静无以致远超然离俗尘采菊东篱下低头思故乡岂同凡鸟群"
     given_name = random.choice(chinese_characters) + random.choice(chinese_characters)
     surname = random.choice(surnames)
